@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Игра "Найди баг"</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="img/favicon/favicon-48x48.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicon/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicon/apple-touch-icon-1024x1024.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.min.css">
+</head>
+
+<body class="container">
+    <nav class="menu" id="level-menu">
+        <h2 class="title">Выберите уровень сложности:</h2>
+        <h3 class="subtitle">Выберите сложность и игра начнется. Чем выше уровень - тем больше будет выборка карт.</h3>
+        <div class="difficulty-levels">
+            <label class="level level_active" for="simple" id="label-simple">
+                <input class="level__simple" type="button" name="simple" value="Простой" id="simple">
+            </label>
+            <label class="level" for="average" id="label-average">
+                <input class="level__average" type="button" name="average" value="Средний" id="average">
+            </label>
+            <label class="level" for="difficult" id="label-difficult">
+                <input class="level__difficult" type="button" name="difficult" value="Сложный" id="difficult">
+            </label>
+        </div>
+        <input class="start-button" type="button" name="start" value="Начать игру" id="button">
+        <div class="pictures" id="card-pictures">
+            <img class="bottom-card" src="./img/card.png" alt="bottom-card">
+            <img class="top-card" src="./img/card.png" alt="top-card">
+        </div>
+    </nav>
+    <script src="./js/script.min.js"></script>
+</body>
+
+</html>
